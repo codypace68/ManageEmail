@@ -1,0 +1,1 @@
+Mangage Email makes it simple to receive http payloads for only the emails you need to see
