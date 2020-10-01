@@ -1,0 +1,19 @@
+{
+  "name": "managemail",
+  "version": "1.0.0",
+  "description": "Monitors emails based on configured filters and sends email payload to designated POST URL (Webhook)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codypace68/ManageEmail.git"
+  },
+  "author": "Cody Pace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codypace68/ManageEmail/issues"
+  },
+  "homepage": "https://github.com/codypace68/ManageEmail#readme"
+}
