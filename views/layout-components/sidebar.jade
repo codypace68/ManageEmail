@@ -1,0 +1,22 @@
+nav.mt-2
+    ul.nav.nav-pills.nav-sidebar.flex-column(data-widget="treeview" role="menu" data-accordion="false")
+        li.nav-item
+            if (page === "/dashboard")
+                a.nav-link.active(href="/dashboard") 
+                    i.nav-icon.fas.fa-tachometer-alt
+                    p Dashboard
+            else
+                a.nav-link(href="/dashboard") 
+                    i.nav-icon.fas.fa-tachometer-alt
+                    p Dashboard
+        li.nav-item
+            if (page === "/manage-mailbox")
+                a.nav-link.active(href="/manage-mailbox") 
+                    i.nav-icon.fas.fa-tasks
+                    p Manage Mailboxes
+            else 
+                a.nav-link(href="/manage-mailbox") 
+                    i.nav-icon.fas.fa-tasks
+                    p Manage Mailboxes
+script. 
+    console.log('#{page}')

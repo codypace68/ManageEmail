@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    title AdminLTE 3 | Dashboard
+    // Tell the browser to be responsive to screen width
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    include ./header-includes/stylesheets
+    include ./header-includes/scripts
+body.hold-transition.sidebar-mini.layout-fixed
+    .wrapper
+      // Navbar
+      nav.main-header.navbar.navbar-expand.navbar-white.navbar-light
+        // Left navbar links
+        ul.navbar-nav
+          li.nav-item
+            a.nav-link(data-widget='pushmenu' href='#' role='button')
+              i.fas.fa-bars
+        include ./layout-components/navbar
+      // Main Sidebar Container
+      aside.main-sidebar.sidebar-light-primary.elevation-4
+        // Brand Logo
+        include ./layout-components/brand
+        // Sidebar
+        .sidebar
+          include ./layout-components/sidebar
+      // Content Wrapper. Contains page content
+      .content-wrapper
+        include ./layout-components/content
+      footer.main-footer
+        include ./layout-components/footer
+
+
+
